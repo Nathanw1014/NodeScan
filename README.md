@@ -11,3 +11,7 @@ An example file of Methods that can be used is in the "Lists" directory.
 `./nodeScan.sh <methodslist.txt> <iplist.txt> portnumber` (8545 is Ethereums default port number for incoming JSON-RPC connections)
 
 The resulting output will append to a txt file called `outfile.txt'
+
+## To Note:
+-Default network is hardcoded to '1', most methods arent relyent on this so will work regardless of if they are set to the correct network id
+-Currently not set up correctly to handle methods with parametres. If the method requires a parametre, it will tell you in the error output. 
