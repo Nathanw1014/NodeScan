@@ -14,4 +14,5 @@ The resulting output will append to a txt file called `outfile.txt'
 
 ## To Note:
 -Default network is hardcoded to '1', most methods arent relyent on this so will work regardless of if they are set to the correct network id
+
 -Currently not set up correctly to handle methods with parametres. If the method requires a parametre, it will tell you in the error output. 
